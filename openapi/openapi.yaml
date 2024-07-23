@@ -3462,7 +3462,7 @@ components:
               description: The type of this node, represented by the string literal "SLICE"
           required:
             - type
-        - $ref: "#/components/schemas/IsLayerTrait"
+        - $ref: "#/components/schemas/HasLayoutTrait"
     InstanceNode:
       allOf:
         - type: object
